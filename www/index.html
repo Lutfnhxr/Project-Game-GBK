@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAME GBK KELOMPOK 7</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LOGIN -->
+    <div id="loginPage">
+
+        <h1>Game GBK - Kelompok 7</h1>
+
+        <h2>Masukkan Data</h2>
+
+        <input
+            type="text"
+            id="playerName"
+            placeholder="Nama Player"
+        >
+
+<br><br>
+
+        <input
+            type="text"
+            id="roomCode"
+            placeholder="Kode Room"
+        >
+
+        <br><br>
+
+        <button onclick="joinGame()">
+            Masuk Game
+        </button>
+
+    </div>
+
+    <!-- GAME -->
+    <div id="gamePage" style="display:none;">
+
+        <h1>Batu Gunting Kertas Kelompok 7 - 2BTT</h1>
+
+        <h2 id="playerInfo">Player:</h2>
+
+        <h2 id="status">Menyalakan kamera...</h2>
+
+        <video id="video" autoplay playsinline muted></video>
+
+        <div id="gesture">Gesture: -</div>
+
+        <div class="buttons">
+
+            <button onclick="manualChoice('✊')">✊</button>
+            <button onclick="manualChoice('✌️')">✌️</button>
+            <button onclick="manualChoice('🤚')">🤚</button>
+
+        </div>
+
+        <div id="hasil" class="result"></div>
+
+    </div>
+
+</div>
+
+<!-- FIREBASE -->
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+
+<!-- MEDIAPIPE -->
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

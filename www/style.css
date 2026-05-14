@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    padding:0;
+
+    font-family:Arial;
+
+    background:#0f172a;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+}
+
+.container{
+
+    width:500px;
+
+    background:#1e293b;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+}
+
+#gamePage{
+    display:none;
+}
+
+input{
+
+    width:80%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:18px;
+}
+
+button{
+
+    padding:15px 20px;
+
+    margin:10px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:18px;
+}
+
+button:hover{
+
+    background:#1d4ed8;
+}
+
+video{
+
+    width:100%;
+
+    max-width:400px;
+
+    border:3px solid white;
+
+    border-radius:15px;
+
+    margin-top:20px;
+}
+
+#gesture{
+
+    margin-top:20px;
+
+    font-size:30px;
+
+    color:yellow;
+}
+
+#playerInfo{
+
+    color:#38bdf8;
+}
+
+.result{
+
+    margin-top:30px;
+
+    font-size:25px;
+}
