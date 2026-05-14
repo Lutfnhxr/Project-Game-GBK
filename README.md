@@ -1,5 +1,4 @@
 # Project-Game-GBK
-# GAME GBK KELOMPOK 7 - 2BTT
 
 ## Deskripsi Project
 
