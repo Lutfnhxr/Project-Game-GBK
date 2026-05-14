@@ -3,10 +3,10 @@ console.log("GAME START");
 /* ================= FIREBASE ================= */
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB6zBMC3RfJQw0LjXo-Lzv7Ox35JzMCO_s",
-    authDomain: "kelompok7-2btt.firebaseapp.com",
-    databaseURL: "https://kelompok7-2btt-default-rtdb.firebaseio.com",
-    projectId: "kelompok7-2btt"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: ""
 };
 
 firebase.initializeApp(firebaseConfig);
